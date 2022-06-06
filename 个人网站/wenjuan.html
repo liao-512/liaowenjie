@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>问卷</title>
+<link rel="stylesheet" type="text/css" href="./css/L4.css">
+	</head>
+	<body>
+		<marquee loop="-1">对于个人网站的问卷调查</marquee>
+		<div id="yi">
+			<form action="index.html" method="get" autocomplete="off">
+			昵称：<input type="text" name="name" pattern="^[\u4e00-\u9fa5_a-zA-Z0-9]+$" required autofocus /><br>	
+			账号：<input type="text" name="name" pattern="^[a-zA-Z]\w{5,15}$" required /><br>
+			手机号码：<input type="tel" name="telphone" pattern="^[0-9]{11}$" required /><br />
+			邮箱：<input type="email" name="emain" pattern="^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$" /><br />	
+			身份：<input type="checkbox" name="like[]" value="f" checked>学生
+			  <input type="checkbox" name="like[]" value="b">上班族
+			  <input type="checkbox" name="like[]" value="l">其他	
+			<br />
+			对廖某个人网站的建议：<br>
+			<textarea name="in" cols="80" rows="10">
+			</textarea>
+			<br>
+			地区：
+			<select name="add" id="">
+			<option value="bj" selected>北京</option>
+			<option value="sh">上海</option>
+			<option value="fj">福建</option>
+			<option value="wh">武汉</option>
+			<option value="sc">四川</option>
+			<option value="hlj">黑龙江</option>
+			<option value="yn">云南</option>
+			<option value="sz">深圳</option>	
+			</select>
+			<br>
+			<input type="submit" value="提交">  
+			
+			</form>
+		
+		</div>
+	</body>
+</html>
+

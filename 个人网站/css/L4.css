@@ -1,0 +1,40 @@
+
+			body{
+				background-color: #afafaf;
+				
+				
+			}
+		
+		  marquee {
+			  width: 100%;
+		                font-weight: bolder;
+		                font-size: 60px;
+						background-color: #ffaa7f;
+		                color: black;
+						
+						padding: 20px;
+		            }
+			#yi{
+				
+				margin: 50px auto;
+			    width: 50%;
+				height: 700px;
+			    background-color: #6c6c6c;
+				border-radius: 50%;
+				background:linear-gradient(to right, #aaff00,#55007f)no-repeat;
+				background-size:0% 100%;
+				transition:2.5s;
+				resize:both;
+				
+					box-shadow: 0 0 10px #C66;
+			}
+			#yi:hover{
+				
+				color:#000000;
+			    background-size:100% 100%;	
+				}
+			form{
+				padding: 50px;
+			    line-height: 50px;	
+		        text-align: center;
+			}
